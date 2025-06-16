@@ -90,6 +90,13 @@ import { onMounted } from 'vue'
           <li class="flex items-start">
             <span class="text-green-500 mr-2">&bull;</span>
             <div>
+              <p class="font-semibold">国家公務員総合職試験(デジタル区分)</p>
+              <p class="text-sm text-gray-600">2025年 合格</p>
+            </div>
+          </li>
+          <li class="flex items-start">
+            <span class="text-green-500 mr-2">&bull;</span>
+            <div>
               <p class="font-semibold">宅地建物取引士</p>
               <p class="text-sm text-gray-600">2024年 取得</p>
             </div>
@@ -105,14 +112,14 @@ import { onMounted } from 'vue'
             <span class="text-green-500 mr-2">&bull;</span>
             <div>
               <p class="font-semibold">基本情報技術者試験</p>
-              <p class="text-sm text-gray-600">2024年 取得</p>
+              <p class="text-sm text-gray-600">2024年 合格</p>
             </div>
           </li>
           <li class="flex items-start">
             <span class="text-green-500 mr-2">&bull;</span>
             <div>
               <p class="font-semibold">ITパスポート</p>
-              <p class="text-sm text-gray-600">2020年 取得</p>
+              <p class="text-sm text-gray-600">2022年 合格</p>
             </div>
           </li>
         </ul>
