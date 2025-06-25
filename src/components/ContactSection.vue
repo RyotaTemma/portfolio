@@ -9,8 +9,8 @@ const form = ref({
 const submitMessage = ref('');
 const submitMessageType = ref('');
 
-// Vercel Serverless FunctionのエンドポイントURLに置き換えてください
-// ローカル開発中は http://localhost:3000/api/contact など、Vercelデプロイ後は /api/contact となります
+// Vercel Serverless FunctionのエンドポイントURLに置き換える
+// ローカル開発中は http://localhost:3000/api/contact など、Vercelデプロイ後は /api/contact 
 const API_ENDPOINT_URL = '/api/contact'; 
 
 const submitForm = async () => {
