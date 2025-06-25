@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export default async function (req, res) {
   // CORS (Cross-Origin Resource Sharing) の設定
-  // 開発中は '*' で許可し、本番環境ではあなたのポートフォリオのドメイン（例: https://your-portfolio.vercel.app）に限定
+  // 開発中は '*' で許可し、本番環境ではポートフォリオのドメインに限定
   res.setHeader('Access-Control-Allow-Origin', process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
