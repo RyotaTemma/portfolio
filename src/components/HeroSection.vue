@@ -65,7 +65,7 @@ import { onMounted } from 'vue'
             <span class="text-blue-500 mr-2">&bull;</span>
             <div>
               <p class="font-semibold">立命館大学 情報理工学部 情報理工学科</p>
-              <p class="text-sm text-gray-600">2020年4月 - 2024年3月 卒業</p>
+              <p class="text-sm text-gray-600">2021年4月 - 2025年3月 卒業</p>
               <p class="text-sm text-gray-600">（専攻：計算機科学、計算社会科学）</p>
             </div>
           </li>
@@ -73,7 +73,7 @@ import { onMounted } from 'vue'
             <span class="text-blue-500 mr-2">&bull;</span>
             <div>
               <p class="font-semibold">三田学園高等学校</p>
-              <p class="text-sm text-gray-600">2017年4月 - 2020年3月 卒業</p>
+              <p class="text-sm text-gray-600">2018年4月 - 2021年3月 卒業</p>
             </div>
           </li>
         </ul>
